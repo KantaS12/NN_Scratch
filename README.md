@@ -41,6 +41,7 @@ git clone <https://github.com/KantaS12/NN_Scratch>
 I used kaggle note book but you can also use a kaggle dataset or download using libraries.
 
 ## Using Example
+
 ```python
 def init_params():
     W1 = np.random.uniform(-0.3, 0.3, (32, 784))
@@ -238,3 +239,40 @@ The improvement was substantial even when considering the impact of overfitting 
 
 ### Testing Accuracy
 The final testing accuracy achieved by the model using the Adam optimizer was 0.9538095238095238 (approximately 95.38%).
+
+## Future Improvements
+
+### Regularization Techniques
+Incorporate regularization techniques such as L1 or L2 regularization, or dropout, to mitigate overfitting and improve generalization.
+
+### Batch Normalization
+Add batch normalization layers to improve training stability and potentially allow for the use of higher learning rates.
+
+### More Sophisticated Architectures
+Explore more complex network architectures, such as convolutional neural networks (CNNs), which are known to perform well on image recognition tasks.
+
+### Hyperparameter Tuning 
+Implement more systematic hyperparameter tuning techniques (e.g., grid search, random search) to find the optimal learning rate, network architecture, and other hyperparameters.
+
+### Early Stopping
+Implement early stopping to prevent overfitting by monitoring the performance on a validation set and stopping training when the performance starts to degrade.
+
+### Data Augmentation
+Apply data augmentation techniques to the MNIST dataset (e.g., rotations, small translations) to increase the size and diversity of the training data and improve generalization.
+
+### Visualization Enhancements
+Add more detailed visualizations of the training process, such as plots of weights and gradients.
+
+## License
+
+This work uses the MNIST database of handwritten digits, which is copyrighted by Yann LeCun (Courant Institute, NYU) and Corinna Cortes (Google Labs, New York) and made available under the CC BY-SA 3.0 license.
+
+## Acknowledgments
+
+The MNIST dataset is a widely used resource for the machine learning community.
+
+My friend Bryan.
+
+## Author 
+
+Kanta Saito 
